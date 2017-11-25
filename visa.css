@@ -1,0 +1,67 @@
+html, body {
+  display: flex;
+  justify-content: center;
+}
+
+#hello-world {
+  margin-top: 36px;
+  padding: 36px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 170px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: -webkit-linear-gradient(to right, #000046, #1cb5e0);
+  background: linear-gradient(to right, #000046, #1cb5e0);
+  color: white;
+  font-family: "Lato", sans-serif;
+  z-index: 1;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+h2 {
+  margin-bottom: -20px;
+  font-size: 20px;
+}
+
+input {
+  margin-top: 30px;
+  height: 30px;
+  width: 200px;
+}
+
+input:focus {
+  outline: #f24;
+}
+
+#circle {
+  display: inline-block;
+}
+
+#circle1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #D51E05;
+  margin-left: -25px;
+}
+
+#circle2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #EEAB05;
+  margin-top: -80px;
+  margin-left: 25px;
+}
+
+#idcard {
+  width: 50px;
+  height: 45px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: -250px;
+  background-color: #fff;
+}
